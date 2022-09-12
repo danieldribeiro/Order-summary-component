@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 320px;
+    height: 470px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 20px;
+}
+
+.container img{
+    width: 320px;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+
+.container h1{
+    color: hsl(223, 47%, 23%);
+    font-size: 26px;
+}
+
+.container p{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-size: 16px;
+}
+
+.planSelection{
+    width: 250px;
+    height: 50px;
+    padding: 0 15px 0 10px;
+    background-color: hsl(225, 100%, 98%);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.planSelection img{
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+}
+
+.planInfos{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.planInfos p{
+    font-size: 13px;
+    text-align: left;
+}
+
+.planSelection a{
+    font-size: 12px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.planSelection a:hover{
+    color: hsla(245, 75%, 52%, 0.612);;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+button:hover{
+    background-color: hsla(245, 75%, 52%, 0.662);
+}
+
+.cancelOrder{
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancelOrder:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
